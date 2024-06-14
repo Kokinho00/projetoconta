@@ -1,9 +1,9 @@
 package conta.model;
 
-public class ContaPoupança extends Conta{
+public class ContaPoupanca extends Conta{
 	private int aniversario;
 
-	public ContaPoupança(int numero, int agencia, int tipo, String titular, float saldo, int aniversario) {
+	public ContaPoupanca(int numero, int agencia, int tipo, String titular, float saldo, int aniversario) {
 		super(numero, agencia, tipo, titular, saldo);
 		this.aniversario = aniversario;
 	}
